@@ -1,0 +1,243 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	background-color: #FFFFFF;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Stil für die Navigationsleiste */
+.navbar {
+  background-color: #333;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  
+}
+
+/* Stil für das Logo */
+.logo img {
+  max-width: 100px; /* Maximale Breite des Logos */
+  margin-right: 20px; /* Abstand zum nächsten Element */
+}
+
+/* Stil für die Navigationsleisten-Links */
+.nav-links {
+  text-align: right;
+}
+
+.nav-links a {
+  color: #fff;
+  text-decoration: none;
+  margin-left: 20px; /* Abstand zwischen den Links */
+}
+
+
+
+/* Stil für die Magazingalerie */
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+/* Stil für jedes Bild */
+.image {
+  flex: 1 1 auto; /* Flex-Wachstum, Flex-Schrumpfung, Flex-Basis */
+  max-width: 300px; /* Maximale Breite für jedes Bild */
+  margin: 10px;
+  text-align: center;
+}
+
+/* Stil für das Bild */
+.image img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Stil für den Beschreibungstext */
+.image p {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #666;
+}
+
+
+
+
+
+
+
+/* kastem System bild und text */
+/* Stil für den farbigen Div */
+.decoration {
+  display: flex;
+  background-color: #f0f0f0; /* Hintergrundfarbe des Divs */
+}
+
+.decorationB {
+  display: flex;
+  background-color: #6E3C0C;
+}
+
+.decorationG {
+  display: flex;
+  background-color: #4CBD52;
+}
+
+.decorationGr {
+  display: flex;
+  background-color: #CCCCCC; 
+}
+
+.decorationW {
+  display: flex;
+  background-color: #FFFFFF; 
+}
+
+/* Stil für die linke Hälfte */
+.left {
+  flex: 1;
+}
+
+/* Stil für das Bild */
+.left img {
+  max-width: 500px;
+  height: auto;
+}
+
+/* Stil für die linke Hälfte */
+.left2 {
+  flex: 1;
+}
+
+/* Stil für das Bild klein */
+.left2 img {
+  max-width: 300px;
+  height: auto;
+}
+
+.right2 {
+  flex: 1;
+  padding: 20px; /* Abstand um den Text */
+
+}
+
+/* Stil für die rechte Hälfte */
+.right {
+  flex: 1;
+  padding-top: 20px; /* Abstand um den Text */
+
+}
+
+
+.white-text {
+  color: white; 
+  width: 66.666%; /* 2/3 der Seite */
+  text-align: left;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.InnenTextS {
+  width: 66.666%; /* 2/3 der Seite */
+  text-align: left;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+
+
+/* Body-Stile */
+.body-content {
+    padding: 20px;
+}
+
+/* Zentrierung des Hauptcontainers */
+.container {
+  display: flex;
+  justify-content: center;
+  padding: 20px
+}
+
+/* Stil für den Kasten */
+.Impressum {
+  width: 66.666%; /* 2/3 der Seite */
+  text-align: center;
+  background-color: #FFFFFF;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+/* Stil für den Kasten */
+.InnenText {
+  width: 66.666%; /* 2/3 der Seite */
+  text-align: left;
+  background-color: #FFFFFF;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.TextNebenBild {
+  width: 33.33%; /* 1/3 der Seite */
+  text-align: left;
+  background-color: #FFFFFF;
+  padding-top: 90px;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  padding-right: 20px;
+  border-radius: 10px;
+}
+
+.imageH {padding: 40px}
+
+
+
+/* Stil für die Karte */
+.map-container {
+  width: 100%;
+  max-width: 800px; /* Maximalbreite für die Karte */
+  margin: 0 auto; /* Zentrieren der Karte */
+  padding: 30px;
+}
+
+
+
+
+
+/* Footer-Stile */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+
+/* Individual Footer Sections */
+.footer-section {
+  flex: 1;
+  margin: 0 10px;
+}
+
+
+/* Individual Footer Sections */
+.footer-section {
+  flex: 1;
+  margin: 0 10px;
+}
+
+/* Links im Footer */
+footer a {
+  color: #fff;
+  text-decoration: none;
+}
